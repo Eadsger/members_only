@@ -2,6 +2,10 @@ source "https://rubygems.org"
 
 ruby "3.2.2"
 
+# Use devise and responders for authentication
+gem 'devise', '~> 4.9', '>= 4.9.3'
+gem 'responders', '~> 3.1', '>= 3.1.1'
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
